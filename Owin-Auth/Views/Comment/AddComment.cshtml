@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddComment</title>
+</head>
+<body>
+<div>
+    @using (Html.BeginForm("Login","Comment", new {ReturnURL = "/Comment/AddComment"}))
+    {
+        <input type="text"/>
+        <input type="submit" value="Submit"/>
+    }
+</div>
+</body>
+</html>
