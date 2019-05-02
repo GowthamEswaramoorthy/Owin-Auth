@@ -1,7 +1,6 @@
 **/bin/Debug/
 **/bin/Release/
 /.vs/Owin-Auth/v16/*.suo
-/Owin-Auth/App_Start/*.cs
 /.vs/Owin-Auth/v16/Server/sqlite3/*.lock
 /.vs/Owin-Auth/v16/Server/sqlite3/*.ide-shm
 /.vs/Owin-Auth/v16/Server/sqlite3/*.ide-wal
